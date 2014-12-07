@@ -11,7 +11,7 @@ header {
   text-align:center;
 }
 
-.header img {
+img {
   display:inline-block;
   margin: 0 auto;
   max-width: 100%;
@@ -101,32 +101,63 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
 nav#main {
-  height: 30px;
+  height: 20px;
 }
 #main li {
   color:#000;
   font-family: 'Ubuntu' sans-serif;
   font-weight: 700;
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: .75em;
+  line-height: 1.2em;
   display: inline;
   margin: 0% 3%;
 }
 
-  body {
-    background: url("../img/hexabump.png") repeat #000;
-
+  
   }
   .selfie-right {
   	visibility: hidden;
   }
+
+  .copyright {
+    height:5%;
+    
+
+  }
+  .copyright p {
+    padding-right:0;
+    font-size: .5em;
+
+  }
 }
+
+
+
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width : 768px) 
+and (min-device-width : 860px) 
 and (max-device-width : 1024px) {
 
+
+}
+
   
+  }
+  .selfie-right {
+    visibility: hidden;
+  }
+
+  .copyright {
+    height:5%;
+    
+
+  }
+  .copyright p {
+
+    font-size: .5em;
+
+  }
+}  
   
   
 /* Styles */
