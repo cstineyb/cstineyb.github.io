@@ -1,0 +1,169 @@
+/* Your Website Styles */
+
+body {
+	background: url("../img/hexabump.png") repeat #000;
+	
+}
+header {
+  background: url("../img/hexabump.png") repeat #000;
+  max-width: 100%;
+  max-height:200px;
+  text-align:center;
+}
+
+img {
+  display:inline-block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.container {
+	margin: 5% auto;
+}
+
+
+a {
+	text-decoration: none;
+	color: #34DDDD;
+}
+
+
+a:hover {
+	font-size: 1.05em;
+}
+section {
+  position: relative;
+  left: 6%;
+}
+
+img.selfie-right {
+	float: right;
+}
+
+
+nav#main {
+  background: url("../img/light_alu.png") repeat #000;
+  display:inline-block;
+  width: 100%;
+  max-height: 70px;
+  text-align: center;
+  margin-bottom: 1%
+
+}
+
+#main ul {
+  
+  margin-top: 0;
+
+  } 
+
+#main li {
+  color:#000;
+  font-family: 'Ubuntu' sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 2em;
+  display: inline;
+  margin: 0% 3%;
+}
+
+
+a:link {
+ 
+  text-decoration: none;
+  color:#D8D8D8;
+}
+
+a:visited{
+	color: #e6e6e6;
+}
+
+
+footer {
+	background: url("../img/couch-slice.jpg") repeat;
+	height: 320px;
+  width: 100%;
+}
+
+.copyright {
+	background: url("../img/shinedotted.png") repeat;
+   width: 100%;
+}	
+
+.copyright p {
+	text-align: right;
+	padding-right:4%;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+nav#main {
+  height: 20px;
+}
+#main li {
+  color:#000;
+  font-family: 'Ubuntu' sans-serif;
+  font-weight: 700;
+  font-size: .75em;
+  line-height: 1.2em;
+  display: inline;
+  margin: 0% 3%;
+}
+
+  
+  }
+  .selfie-right {
+  	visibility: hidden;
+  }
+
+  .copyright {
+    height:5%;
+    
+
+  }
+  .copyright p {
+    padding-right:0;
+    font-size: .5em;
+
+  }
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 860px) 
+and (max-device-width : 1024px) {
+
+
+}
+
+  
+  }
+  .selfie-right {
+    visibility: hidden;
+  }
+
+  .copyright {
+    height:5%;
+    
+
+  }
+  .copyright p {
+
+    font-size: .5em;
+
+  }
+}  
+  
+  
+/* Styles */
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
